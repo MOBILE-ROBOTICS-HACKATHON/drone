@@ -1,0 +1,149 @@
+[0.684s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/sumayya/drone_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sumayya/drone_ws/src/install/crazyflie_sim
+[0.731s] -- The C compiler identification is GNU 11.4.0
+[0.784s] -- The CXX compiler identification is GNU 11.4.0
+[0.794s] -- Detecting C compiler ABI info
+[0.859s] -- Detecting C compiler ABI info - done
+[0.865s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.865s] -- Detecting C compile features
+[0.865s] -- Detecting C compile features - done
+[0.867s] -- Detecting CXX compiler ABI info
+[0.932s] -- Detecting CXX compiler ABI info - done
+[0.939s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.940s] -- Detecting CXX compile features
+[0.940s] -- Detecting CXX compile features - done
+[0.942s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.057s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.211s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.984s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[1.984s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[1.984s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[1.984s]   using pip.
+[1.984s] Call Stack (most recent call first):
+[1.984s]   CMakeLists.txt:27 (ament_add_pytest_test)
+[1.984s] 
+[1.984s] [0m
+[2.675s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[2.675s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[2.676s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[2.676s]   using pip.
+[2.676s] Call Stack (most recent call first):
+[2.676s]   CMakeLists.txt:27 (ament_add_pytest_test)
+[2.676s] 
+[2.676s] [0m
+[2.795s] -- Configuring done
+[2.800s] -- Generating done
+[2.802s] -- Build files have been written to: /home/sumayya/drone_ws/src/build/crazyflie_sim
+[2.808s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/sumayya/drone_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sumayya/drone_ws/src/install/crazyflie_sim
+[2.809s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sumayya/drone_ws/src/build/crazyflie_sim -- -j16 -l16
+[2.865s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[2.865s] Built target ament_cmake_python_symlink_crazyflie_sim
+[3.080s] running egg_info
+[3.080s] creating crazyflie_sim.egg-info
+[3.080s] writing crazyflie_sim.egg-info/PKG-INFO
+[3.080s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[3.080s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[3.080s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[3.081s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[3.083s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[3.083s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[3.125s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[3.130s] running install_scripts
+[3.133s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.133s]   warnings.warn(
+[3.157s] running egg_info
+[3.158s] writing crazyflie_sim.egg-info/PKG-INFO
+[3.159s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[3.159s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[3.159s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[3.161s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[3.162s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[3.164s] Installing crazyflie_server script to scripts
+[3.214s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[3.223s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sumayya/drone_ws/src/build/crazyflie_sim -- -j16 -l16
+[3.225s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sumayya/drone_ws/src/build/crazyflie_sim
+[3.232s] -- Install configuration: ""
+[3.232s] -- Execute custom install script
+[3.232s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[3.240s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[3.249s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.7-py3.10.egg-info/PKG-INFO
+[3.257s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.7-py3.10.egg-info/SOURCES.txt
+[3.266s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.7-py3.10.egg-info/dependency_links.txt
+[3.274s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.7-py3.10.egg-info/entry_points.txt
+[3.282s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.7-py3.10.egg-info/top_level.txt
+[3.289s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[3.298s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+[3.307s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml
+[3.315s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth
+[3.324s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth
+[3.332s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth
+[3.340s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth
+[3.348s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth
+[3.356s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf
+[3.366s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py
+[3.374s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py
+[3.382s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+[3.390s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+[3.398s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py
+[3.406s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+[3.414s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+[3.422s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+[3.430s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/README.md
+[3.439s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py
+[3.450s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/README.md
+[3.459s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[3.468s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[3.476s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[3.485s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[3.493s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[3.501s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/env.jpg
+[3.510s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[3.518s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[3.529s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[3.539s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[3.551s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[3.562s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[3.572s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[3.582s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.obj
+[3.593s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+[3.606s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py
+[3.616s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+[3.627s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[3.635s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[3.643s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[3.654s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[3.663s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[3.670s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[3.679s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[3.686s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[3.694s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[3.702s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[3.710s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[3.718s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[3.726s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[3.734s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[3.742s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[3.797s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim'...
+[3.797s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py'...
+[3.797s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+[3.797s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data'...
+[3.797s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench'...
+[3.797s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2'...
+[3.797s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio'...
+[3.797s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py'...
+[3.797s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py'...
+[3.798s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py'...
+[3.798s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data'...
+[3.798s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env'...
+[3.798s] Listing '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py'...
+[3.798s] Compiling '/home/sumayya/drone_ws/src/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py'...
+[3.804s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sumayya/drone_ws/src/build/crazyflie_sim

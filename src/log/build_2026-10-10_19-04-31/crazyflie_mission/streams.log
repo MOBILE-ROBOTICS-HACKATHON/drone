@@ -1,0 +1,18 @@
+[1.086s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_mission': CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/home/sumayya/drone_ws/src/install/motion_capture_tracking:/home/sumayya/drone_ws/src/install/crazyflie:/home/sumayya/drone_ws/src/install/crazyflie_server_cpp:/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_sim:/home/sumayya/drone_ws/src/install/crazyflie_examples:/home/sumayya/drone_ws/src/install/crazyflie_description LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sumayya/drone_ws/src/build/crazyflie_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sumayya/drone_ws/src/install/crazyflie_mission/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sumayya/drone_ws/src/build/crazyflie_mission/build --no-deps symlink_data
+[1.240s] running develop
+[1.343s] running egg_info
+[1.344s] writing crazyflie_mission.egg-info/PKG-INFO
+[1.344s] writing dependency_links to crazyflie_mission.egg-info/dependency_links.txt
+[1.344s] writing entry points to crazyflie_mission.egg-info/entry_points.txt
+[1.344s] writing requirements to crazyflie_mission.egg-info/requires.txt
+[1.344s] writing top-level names to crazyflie_mission.egg-info/top_level.txt
+[1.345s] reading manifest file 'crazyflie_mission.egg-info/SOURCES.txt'
+[1.346s] writing manifest file 'crazyflie_mission.egg-info/SOURCES.txt'
+[1.347s] running build_ext
+[1.347s] Creating /home/sumayya/drone_ws/src/install/crazyflie_mission/lib/python3.10/site-packages/crazyflie-mission.egg-link (link to .)
+[1.347s] Installing fixed_hold script to /home/sumayya/drone_ws/src/install/crazyflie_mission/lib/crazyflie_mission
+[1.347s] Installing random_hold script to /home/sumayya/drone_ws/src/install/crazyflie_mission/lib/crazyflie_mission
+[1.348s] 
+[1.348s] Installed /home/sumayya/drone_ws/src/build/crazyflie_mission
+[1.348s] running symlink_data
+[1.374s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_mission' returned '0': CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/home/sumayya/drone_ws/src/install/motion_capture_tracking:/home/sumayya/drone_ws/src/install/crazyflie:/home/sumayya/drone_ws/src/install/crazyflie_server_cpp:/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_sim:/home/sumayya/drone_ws/src/install/crazyflie_examples:/home/sumayya/drone_ws/src/install/crazyflie_description LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sumayya/drone_ws/src/build/crazyflie_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sumayya/drone_ws/src/install/crazyflie_mission/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sumayya/drone_ws/src/build/crazyflie_mission/build --no-deps symlink_data

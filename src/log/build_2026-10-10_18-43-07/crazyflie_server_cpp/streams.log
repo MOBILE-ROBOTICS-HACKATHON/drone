@@ -1,0 +1,49 @@
+[0.234s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_server_cpp': CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/home/sumayya/drone_ws/src/install/motion_capture_tracking:/home/sumayya/drone_ws/src/install/crazyflie:/home/sumayya/drone_ws/src/install/crazyflie_server_cpp:/home/sumayya/drone_ws/src/install/crazyflie_sim:/home/sumayya/drone_ws/src/install/crazyflie_examples:/home/sumayya/drone_ws/src/install/crazyflie_description:/home/sumayya/drone_ws/src/install/crazyflie_server_py:/home/sumayya/drone_ws/src/install/crazyflie_py:/home/sumayya/drone_ws/src/install/crazyflie_mission:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sumayya/drone_ws/src/build/crazyflie_server_cpp -- -j16 -l16
+[0.688s] [ 23%] Built target crazyflieLinkCpp
+[0.689s] [ 31%] Built target crazyflie_cpp
+[0.689s] [ 47%] Built target battery
+[0.689s] [ 47%] Built target reboot
+[0.690s] [ 47%] Built target console
+[0.690s] [ 52%] Built target crazyflie_server
+[0.690s] [ 57%] Built target listMemories
+[0.691s] [ 63%] Built target listParams
+[0.691s] [ 68%] Built target listLogVariables
+[0.691s] [ 78%] Built target log
+[0.693s] [ 78%] Built target version
+[0.693s] [ 89%] Built target comCheck
+[0.694s] [ 89%] Built target downloadUSDLogfile
+[0.694s] [ 94%] Built target scan
+[0.694s] [100%] Built target setParam
+[0.698s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_server_cpp' returned '0': CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/home/sumayya/drone_ws/src/install/motion_capture_tracking:/home/sumayya/drone_ws/src/install/crazyflie:/home/sumayya/drone_ws/src/install/crazyflie_server_cpp:/home/sumayya/drone_ws/src/install/crazyflie_sim:/home/sumayya/drone_ws/src/install/crazyflie_examples:/home/sumayya/drone_ws/src/install/crazyflie_description:/home/sumayya/drone_ws/src/install/crazyflie_server_py:/home/sumayya/drone_ws/src/install/crazyflie_py:/home/sumayya/drone_ws/src/install/crazyflie_mission:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sumayya/drone_ws/src/build/crazyflie_server_cpp -- -j16 -l16
+[0.698s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_server_cpp': CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/home/sumayya/drone_ws/src/install/motion_capture_tracking:/home/sumayya/drone_ws/src/install/crazyflie:/home/sumayya/drone_ws/src/install/crazyflie_server_cpp:/home/sumayya/drone_ws/src/install/crazyflie_sim:/home/sumayya/drone_ws/src/install/crazyflie_examples:/home/sumayya/drone_ws/src/install/crazyflie_description:/home/sumayya/drone_ws/src/install/crazyflie_server_py:/home/sumayya/drone_ws/src/install/crazyflie_py:/home/sumayya/drone_ws/src/install/crazyflie_mission:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sumayya/drone_ws/src/build/crazyflie_server_cpp
+[0.704s] -- Install configuration: ""
+[0.704s] -- Execute custom install script
+[0.704s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/comCheck
+[0.704s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/scan
+[0.704s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/listParams
+[0.704s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/listLogVariables
+[0.705s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/listMemories
+[0.705s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/reboot
+[0.705s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/battery
+[0.705s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/version
+[0.705s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/console
+[0.706s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/log
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/setParam
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/downloadUSDLogfile
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/crazyflie_server
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/ament_index/resource_index/package_run_dependencies/crazyflie_server_cpp
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/ament_index/resource_index/parent_prefix_path/crazyflie_server_cpp
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/ament_prefix_path.sh
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/ament_prefix_path.dsv
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/path.sh
+[0.707s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/path.dsv
+[0.708s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.bash
+[0.708s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.sh
+[0.708s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.zsh
+[0.708s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.dsv
+[0.708s] -- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/package.dsv
+[0.714s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/ament_index/resource_index/packages/crazyflie_server_cpp
+[0.714s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/cmake/crazyflie_server_cppConfig.cmake
+[0.714s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/cmake/crazyflie_server_cppConfig-version.cmake
+[0.714s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/package.xml
+[0.717s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_server_cpp' returned '0': CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces:/home/sumayya/drone_ws/src/install/motion_capture_tracking:/home/sumayya/drone_ws/src/install/crazyflie:/home/sumayya/drone_ws/src/install/crazyflie_server_cpp:/home/sumayya/drone_ws/src/install/crazyflie_sim:/home/sumayya/drone_ws/src/install/crazyflie_examples:/home/sumayya/drone_ws/src/install/crazyflie_description:/home/sumayya/drone_ws/src/install/crazyflie_server_py:/home/sumayya/drone_ws/src/install/crazyflie_py:/home/sumayya/drone_ws/src/install/crazyflie_mission:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sumayya/drone_ws/src/build/crazyflie_server_cpp

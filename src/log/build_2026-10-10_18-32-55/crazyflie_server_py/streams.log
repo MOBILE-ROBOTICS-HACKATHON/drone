@@ -1,0 +1,24 @@
+[1.769s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_server_py': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib:/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/build/crazyflie_server_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sumayya/drone_ws/src/install/crazyflie_server_py/lib/python3.10/site-packages:/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sumayya/drone_ws/src/build/crazyflie_server_py/build --no-deps symlink_data
+[2.225s] running develop
+[2.414s] running egg_info
+[2.414s] creating crazyflie_server_py.egg-info
+[2.414s] writing crazyflie_server_py.egg-info/PKG-INFO
+[2.414s] writing dependency_links to crazyflie_server_py.egg-info/dependency_links.txt
+[2.414s] writing entry points to crazyflie_server_py.egg-info/entry_points.txt
+[2.414s] writing requirements to crazyflie_server_py.egg-info/requires.txt
+[2.414s] writing top-level names to crazyflie_server_py.egg-info/top_level.txt
+[2.415s] writing manifest file 'crazyflie_server_py.egg-info/SOURCES.txt'
+[2.416s] reading manifest file 'crazyflie_server_py.egg-info/SOURCES.txt'
+[2.417s] writing manifest file 'crazyflie_server_py.egg-info/SOURCES.txt'
+[2.418s] running build_ext
+[2.419s] Creating /home/sumayya/drone_ws/src/install/crazyflie_server_py/lib/python3.10/site-packages/crazyflie-server-py.egg-link (link to .)
+[2.419s] Installing crazyflie_server script to /home/sumayya/drone_ws/src/install/crazyflie_server_py/lib/crazyflie_server_py
+[2.420s] 
+[2.420s] Installed /home/sumayya/drone_ws/src/build/crazyflie_server_py
+[2.420s] running symlink_data
+[2.420s] creating /home/sumayya/drone_ws/src/install/crazyflie_server_py/share/ament_index
+[2.420s] creating /home/sumayya/drone_ws/src/install/crazyflie_server_py/share/ament_index/resource_index
+[2.420s] creating /home/sumayya/drone_ws/src/install/crazyflie_server_py/share/ament_index/resource_index/packages
+[2.420s] symbolically linking /home/sumayya/drone_ws/src/build/crazyflie_server_py/resource/crazyflie_server_py -> /home/sumayya/drone_ws/src/install/crazyflie_server_py/share/ament_index/resource_index/packages
+[2.420s] symbolically linking /home/sumayya/drone_ws/src/build/crazyflie_server_py/package.xml -> /home/sumayya/drone_ws/src/install/crazyflie_server_py/share/crazyflie_server_py
+[2.481s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_server_py' returned '0': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces:/home/sumayya/drone_ws/src/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib:/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/build/crazyflie_server_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sumayya/drone_ws/src/install/crazyflie_server_py/lib/python3.10/site-packages:/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sumayya/drone_ws/src/build/crazyflie_server_py/build --no-deps symlink_data

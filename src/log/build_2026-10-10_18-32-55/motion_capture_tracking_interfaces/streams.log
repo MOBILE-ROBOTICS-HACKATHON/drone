@@ -1,0 +1,293 @@
+[0.008s] Invoking command in '/home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/sumayya/drone_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.089s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.198s] -- Detecting CXX compiler ABI info - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.203s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.337s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.355s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.383s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.435s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.452s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.653s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.660s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.666s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.673s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.074s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.076s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.098s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.098s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.098s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.098s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.115s] -- Found PythonExtra: .so  
+[1.158s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.160s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.233s] -- Configuring done
+[1.265s] -- Generating done
+[1.273s] -- Build files have been written to: /home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces
+[1.282s] Invoked command in '/home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/sumayya/drone_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces
+[1.283s] Invoking command in '/home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces -- -j16 -l16
+[1.319s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.326s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.326s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.331s] [  5%] Built target ament_cmake_python_symlink_motion_capture_tracking_interfaces
+[1.481s] running egg_info
+[1.482s] creating motion_capture_tracking_interfaces.egg-info
+[1.482s] writing motion_capture_tracking_interfaces.egg-info/PKG-INFO
+[1.482s] writing dependency_links to motion_capture_tracking_interfaces.egg-info/dependency_links.txt
+[1.482s] writing top-level names to motion_capture_tracking_interfaces.egg-info/top_level.txt
+[1.482s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[1.485s] reading manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[1.485s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[1.508s] [  5%] Built target ament_cmake_python_build_motion_capture_tracking_interfaces_egg
+[1.508s] [  5%] Built target motion_capture_tracking_interfaces__rs
+[1.584s] [ 12%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__functions.c.o[0m
+[1.585s] [ 12%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/latency_info__functions.c.o[0m
+[1.585s] [ 12%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.c.o[0m
+[1.585s] [ 12%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.c.o[0m
+[1.639s] [ 12%] Built target motion_capture_tracking_interfaces__cpp
+[1.647s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.647s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.647s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.714s] [ 19%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_generator_c.so[0m
+[1.757s] [ 19%] Built target motion_capture_tracking_interfaces__rosidl_generator_c
+[1.765s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.765s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.765s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.865s] [ 26%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.cpp.o[0m
+[1.865s] [ 28%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.cpp.o[0m
+[1.869s] [ 30%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.cpp.o[0m
+[1.869s] [ 32%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.cpp.o[0m
+[1.885s] [ 37%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose_array_v2__type_support.cpp.o[0m
+[1.885s] [ 37%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/latency_info__type_support.cpp.o[0m
+[1.886s] [ 39%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose_array__type_support.cpp.o[0m
+[1.886s] [ 37%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose__type_support.cpp.o[0m
+[1.886s] [ 44%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose_array_v2__type_support.cpp.o[0m
+[1.886s] [ 44%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/latency_info__type_support.cpp.o[0m
+[1.886s] [ 44%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[1.887s] [ 46%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[1.986s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/latency_info__type_support.cpp.o[0m
+[1.986s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[2.048s] [ 51%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.c.o[0m
+[2.050s] [ 53%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose_array_v2__type_support.cpp.o[0m
+[2.050s] [ 55%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[2.076s] [ 57%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support_c.cpp.o[0m
+[2.079s] [ 58%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support_c.cpp.o[0m
+[2.083s] [ 60%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so[0m
+[2.089s] [ 62%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.c.o[0m
+[2.128s] [ 64%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.c.o[0m
+[2.155s] [ 64%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c
+[2.165s] [ 66%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.c.o[0m
+[2.181s] [ 67%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support_c.cpp.o[0m
+[2.211s] [ 69%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.267s] [ 69%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c
+[2.288s] [ 71%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support_c.cpp.o[0m
+[2.334s] [ 73%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so[0m
+[2.399s] [ 73%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_cpp
+[2.467s] [ 75%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.534s] [ 75%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp
+[2.548s] [ 76%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.556s] [ 78%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.682s] [ 78%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c
+[2.690s] [ 78%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.711s] [ 78%] Built target motion_capture_tracking_interfaces
+[2.737s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.081s] [ 80%] Built target motion_capture_tracking_interfaces__py
+[3.098s] [ 83%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c.o[0m
+[3.099s] [ 83%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_latency_info_s.c.o[0m
+[3.099s] [ 85%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_array_v2_s.c.o[0m
+[3.099s] [ 87%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_s.c.o[0m
+[3.367s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/libmotion_capture_tracking_interfaces__rosidl_generator_py.so[0m
+[3.422s] [ 89%] Built target motion_capture_tracking_interfaces__rosidl_generator_py
+[3.459s] [ 91%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.474s] [ 92%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.476s] [ 94%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.616s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.635s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.638s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.661s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext
+[3.703s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.711s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.727s] Invoked command in '/home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces -- -j16 -l16
+[3.730s] Invoking command in '/home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces
+[3.743s] -- Install configuration: ""
+[3.744s] -- Execute custom install script
+[3.744s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rosidl_interfaces/motion_capture_tracking_interfaces
+[3.765s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__functions.h
+[3.777s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__struct.h
+[3.786s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.h
+[3.808s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.h
+[3.827s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.h
+[3.837s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.h
+[3.846s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h
+[3.856s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.h
+[3.866s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.h
+[3.876s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__functions.h
+[3.885s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__struct.h
+[3.896s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.h
+[3.906s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/latency_info.h
+[3.920s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.h
+[3.928s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.h
+[3.937s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array_v2.h
+[3.947s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.960s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.sh
+[3.967s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.dsv
+[3.977s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_fastrtps_c.h
+[3.992s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_c.h
+[4.000s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_c.h
+[4.008s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_fastrtps_c.h
+[4.023s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.034s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__builder.hpp
+[4.044s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__struct.hpp
+[4.056s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__traits.hpp
+[4.062s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.hpp
+[4.078s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__builder.hpp
+[4.087s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.hpp
+[4.097s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__traits.hpp
+[4.117s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.hpp
+[4.135s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__builder.hpp
+[4.146s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.hpp
+[4.155s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__traits.hpp
+[4.164s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.hpp
+[4.181s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__builder.hpp
+[4.196s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__struct.hpp
+[4.211s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__traits.hpp
+[4.216s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.hpp
+[4.228s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/latency_info.hpp
+[4.240s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.hpp
+[4.250s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.hpp
+[4.260s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array_v2.hpp
+[4.272s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.288s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.302s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.309s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.330s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_fastrtps_cpp.hpp
+[4.339s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.349s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_introspection_c.h
+[4.373s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_c.h
+[4.385s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_c.h
+[4.395s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_introspection_c.h
+[4.407s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.433s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_introspection_cpp.hpp
+[4.450s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.476s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[4.498s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_introspection_cpp.hpp
+[4.508s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.sh
+[4.531s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.dsv
+[4.545s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.9-py3.10.egg-info/PKG-INFO
+[4.557s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.9-py3.10.egg-info/SOURCES.txt
+[4.573s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.9-py3.10.egg-info/dependency_links.txt
+[4.599s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.9-py3.10.egg-info/top_level.txt
+[4.614s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py
+[4.649s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c
+[4.672s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.687s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.698s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[4.708s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.728s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.746s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.767s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/__init__.py
+[4.777s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_latency_info.py
+[4.789s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_latency_info_s.c
+[4.799s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose.py
+[4.810s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py
+[4.822s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c
+[4.836s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_v2.py
+[4.845s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_v2_s.c
+[4.857s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_s.c
+[4.870s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.870s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.871s] -- Up-to-date symlink: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.872s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rust_packages/motion_capture_tracking_interfaces
+[4.884s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/Cargo.toml
+[4.895s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/build.rs
+[4.915s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/lib.rs
+[4.933s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/msg.rs
+[4.944s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/msg/rmw.rs
+[4.957s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/LatencyInfo.idl
+[4.976s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.idl
+[4.996s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl
+[5.004s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArrayV2.idl
+[5.014s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/LatencyInfo.msg
+[5.025s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.msg
+[5.037s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.msg
+[5.049s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArrayV2.msg
+[5.059s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking_interfaces
+[5.077s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking_interfaces
+[5.088s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.sh
+[5.098s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.dsv
+[5.109s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.sh
+[5.123s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.dsv
+[5.145s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.bash
+[5.156s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.sh
+[5.170s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.zsh
+[5.183s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.dsv
+[5.194s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv
+[5.208s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/packages/motion_capture_tracking_interfaces
+[5.220s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.233s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.247s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.257s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.268s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.280s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.290s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.301s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig.cmake
+[5.313s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig-version.cmake
+[5.324s] -- Symlinking: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.xml
+[5.337s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so
+[5.339s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so" to ""
+[5.339s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.340s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.340s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.341s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.341s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so
+[5.342s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.343s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so
+[5.343s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so" to ""
+[5.344s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.345s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.345s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so
+[5.346s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.388s] Listing '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces'...
+[5.388s] Compiling '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py'...
+[5.388s] Listing '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg'...
+[5.388s] Compiling '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/__init__.py'...
+[5.388s] Compiling '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_latency_info.py'...
+[5.388s] Compiling '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose.py'...
+[5.388s] Compiling '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py'...
+[5.388s] Compiling '/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_v2.py'...
+[5.397s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[5.397s] -- Set runtime path of "/home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so" to ""
+[5.397s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport.cmake
+[5.397s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.397s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.398s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.398s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cppExport.cmake
+[5.398s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.398s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.399s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.399s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.399s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport.cmake
+[5.399s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.400s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.400s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.400s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport.cmake
+[5.401s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.401s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport.cmake
+[5.408s] -- Installing: /home/sumayya/drone_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.410s] Invoked command in '/home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces

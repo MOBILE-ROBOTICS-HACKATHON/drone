@@ -1,0 +1,1 @@
+/home/sumayya/drone_ws/src/build/motion_capture_tracking_interfaces/rosidl_generator_rs/motion_capture_tracking_interfaces/rust/src/lib.rs

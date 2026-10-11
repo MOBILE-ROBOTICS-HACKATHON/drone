@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+crazyflie_mission/__init__.py
+crazyflie_mission/fixed_hold.py
+crazyflie_mission/random_hold.py
+crazyflie_mission.egg-info/PKG-INFO
+crazyflie_mission.egg-info/SOURCES.txt
+crazyflie_mission.egg-info/dependency_links.txt
+crazyflie_mission.egg-info/entry_points.txt
+crazyflie_mission.egg-info/requires.txt
+crazyflie_mission.egg-info/top_level.txt
+crazyflie_mission.egg-info/zip-safe
+resource/crazyflie_mission

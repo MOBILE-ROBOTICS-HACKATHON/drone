@@ -1,0 +1,1 @@
+Invoking command in '/home/sumayya/drone_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/sumayya/drone_ws/src/crazyswarm2/crazyflie_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sumayya/drone_ws/install/crazyflie_interfaces

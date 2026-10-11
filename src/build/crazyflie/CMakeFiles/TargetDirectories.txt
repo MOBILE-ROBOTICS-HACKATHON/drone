@@ -1,0 +1,10 @@
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/uninstall.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/crazyflie_uninstall.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/teleop.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/test.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/edit_cache.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/rebuild_cache.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/list_install_components.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/install.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/install/local.dir
+/home/sumayya/drone_ws/src/build/crazyflie/CMakeFiles/install/strip.dir

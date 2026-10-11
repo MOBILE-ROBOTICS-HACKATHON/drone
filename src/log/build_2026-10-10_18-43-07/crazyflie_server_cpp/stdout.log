@@ -1,0 +1,45 @@
+[ 23%] Built target crazyflieLinkCpp
+[ 31%] Built target crazyflie_cpp
+[ 47%] Built target battery
+[ 47%] Built target reboot
+[ 47%] Built target console
+[ 52%] Built target crazyflie_server
+[ 57%] Built target listMemories
+[ 63%] Built target listParams
+[ 68%] Built target listLogVariables
+[ 78%] Built target log
+[ 78%] Built target version
+[ 89%] Built target comCheck
+[ 89%] Built target downloadUSDLogfile
+[ 94%] Built target scan
+[100%] Built target setParam
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/comCheck
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/scan
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/listParams
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/listLogVariables
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/listMemories
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/reboot
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/battery
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/version
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/console
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/log
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/setParam
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/downloadUSDLogfile
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/lib/crazyflie_server_cpp/crazyflie_server
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/ament_index/resource_index/package_run_dependencies/crazyflie_server_cpp
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/ament_index/resource_index/parent_prefix_path/crazyflie_server_cpp
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/path.sh
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.bash
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.sh
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/local_setup.dsv
+-- Symlinking: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/package.dsv
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/ament_index/resource_index/packages/crazyflie_server_cpp
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/cmake/crazyflie_server_cppConfig.cmake
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/cmake/crazyflie_server_cppConfig-version.cmake
+-- Up-to-date symlink: /home/sumayya/drone_ws/src/install/crazyflie_server_cpp/share/crazyflie_server_cpp/package.xml

@@ -1,0 +1,4 @@
+[console_scripts]
+fixed_hold = crazyflie_mission.fixed_hold:main
+random_hold = crazyflie_mission.random_hold:main
+

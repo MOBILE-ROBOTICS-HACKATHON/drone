@@ -1,0 +1,9 @@
+{
+  "package_name": "motion_capture_tracking_interfaces",
+  "non_idl_tuples": [
+    "/home/sumayya/drone_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces:msg/LatencyInfo.msg",
+    "/home/sumayya/drone_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces:msg/NamedPose.msg",
+    "/home/sumayya/drone_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces:msg/NamedPoseArray.msg",
+    "/home/sumayya/drone_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces:msg/NamedPoseArrayV2.msg"
+  ]
+}

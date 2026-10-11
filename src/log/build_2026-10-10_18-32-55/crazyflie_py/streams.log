@@ -1,0 +1,23 @@
+[1.821s] Invoking command in '/home/sumayya/drone_ws/src/build/crazyflie_py': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sumayya/drone_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sumayya/drone_ws/src/build/crazyflie_py/build --no-deps symlink_data
+[2.170s] running develop
+[2.390s] running egg_info
+[2.390s] creating crazyflie_py.egg-info
+[2.390s] writing crazyflie_py.egg-info/PKG-INFO
+[2.391s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[2.391s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[2.391s] writing requirements to crazyflie_py.egg-info/requires.txt
+[2.391s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[2.391s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[2.393s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[2.393s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[2.400s] running build_ext
+[2.400s] Creating /home/sumayya/drone_ws/src/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[2.401s] 
+[2.401s] Installed /home/sumayya/drone_ws/src/build/crazyflie_py
+[2.401s] running symlink_data
+[2.401s] creating /home/sumayya/drone_ws/src/install/crazyflie_py/share/ament_index
+[2.401s] creating /home/sumayya/drone_ws/src/install/crazyflie_py/share/ament_index/resource_index
+[2.401s] creating /home/sumayya/drone_ws/src/install/crazyflie_py/share/ament_index/resource_index/packages
+[2.401s] symbolically linking /home/sumayya/drone_ws/src/build/crazyflie_py/resource/crazyflie_py -> /home/sumayya/drone_ws/src/install/crazyflie_py/share/ament_index/resource_index/packages
+[2.401s] symbolically linking /home/sumayya/drone_ws/src/build/crazyflie_py/package.xml -> /home/sumayya/drone_ws/src/install/crazyflie_py/share/crazyflie_py
+[2.460s] Invoked command in '/home/sumayya/drone_ws/src/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/sumayya/drone_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sumayya/drone_ws/src/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sumayya/drone_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/sumayya/drone_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sumayya/drone_ws/src/build/crazyflie_py/build --no-deps symlink_data
